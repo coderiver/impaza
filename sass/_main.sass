@@ -1,2 +1,282 @@
 // Normally mainpage styles
+body
+	background: #F2F1F0 
+.out
+	width: 640px 
+	margin: 0 auto 
  
+
+.header
+	background: #fff 
+	box-shadow: 0 25px 25px -25px rgba(#000, .4)
+	.header__in
+		height: 120px 
+		position: relative
+	.header__logo
+		position: absolute
+		left: 27px 
+		top: 38px 
+		+s(logo)
+		+hide-text
+	.header__menu
+		position: absolute
+		right: 27px 
+		top: 47px 
+		text-transform: uppercase
+		color: #0F7873
+		font-size: 23px  
+		cursor: pointer
+		line-height: 1 
+		i
+			+s(menu)
+			vertical-align: top
+			margin-right: 4px 
+			display: inline-block
+.menu
+	display: none
+	ul
+		list-style: none
+		background: #3D4B4A 
+		border-top: 4px solid #0F7873 
+	li
+		border-bottom: 4px solid #0F7873 
+	a
+		display: block
+		font-size: 40px 
+		color: #fff
+		text-transform: uppercase
+		padding: 23px 0 23px 27px
+		text-decoration: none  
+		position: relative
+		&:before
+			position: absolute
+			right: 27px 
+			top: 50%
+			+s(smbul) 
+			margin-top: -9px 
+			content: ' '
+		&:hover,&.is-active
+			background: #4FC6C0  
+.content
+	margin: 0 27px 
+.articles
+	background: #fff
+	margin-bottom: 8px  
+	padding: 24px 22px
+	h2
+		font-size: 40px 
+		color: #363636
+		font-weight: bold
+		margin-bottom: 30px 
+	.articles__more
+		text-align: right
+		font-size: 30px 
+		margin-top: -20px 
+		a
+			color: #169893 
+.promo
+	+clr
+	padding-top: 40px 
+	.promo__pic
+		float: left
+		margin-left: -10px 
+	.promo__text
+		text-align: right
+		overflow: hidden
+		h3
+			font-size: 22px 
+			font-weight: normal
+			color: #0F7872
+			margin-bottom: 8px  
+		.promo__phones
+			color: #000 
+			font-size: 25px 
+			line-height: 1
+			margin-bottom: 11px  
+	.promo__how
+		list-style: none
+		li
+			margin-bottom: 8px 
+			white-space: nowrap
+		a
+			color: #0F7872
+			font-size: 22px  
+.subpromo
+	h2
+		font-size: 38px 
+		color: #000000
+		+robl
+		font-weight: 100
+		text-transform: uppercase 
+		margin-bottom: 20px 
+	p
+		font-size: 25px 
+		text-transform: uppercase
+		+robl
+		margin-bottom: 30px 
+	img
+		display: block
+.kurs
+	background: url(../img/wave.png) repeat 50% 50%
+	padding-top: 46px 
+	margin-bottom: 8px 
+	padding-bottom: 32px 
+	h3
+		color: #000000
+		font-size: 25px  
+		font-weight: normal
+		text-transform: uppercase
+		text-align: center
+	.kurs__graph
+		margin-bottom: 25px 
+		margin-left: 22px 
+	.kurs__results
+		color: #000000
+		font-size: 25px  
+		line-height: 1.3
+		margin-left: 22px 
+		margin-right: 22px 
+		em
+			font-style: normal 
+			font-size: 25px 
+			color: #0F7973 
+.cure
+	background: url(../img/wave.png) repeat 50% 50% 
+	padding: 50px 50px 80px 50px
+	font-size: 30px 
+	color: #363636
+	text-align: center 
+	ul
+		list-style: none
+		li
+			margin-bottom: 50px 
+			i
+				display: block
+				+s(bul)
+				margin: 0 auto 20px auto 
+.test
+	background: #49B6AF url(../img/bg.jpg) no-repeat 0 0
+	-webkit-background-size: cover 
+	background-size: cover 
+	padding: 103px  86px 50px 86px
+	color: #fff
+	font-size: 25px 
+	line-height: 1.3 
+	position: relative
+	h3
+		font-size: 40px 
+		color: #fff 
+		font-weight: normal
+		line-height: 1 
+		margin-bottom: 15px 
+	p
+		margin-bottom: 23px 
+	.test__go
+		margin-bottom: 23px 
+		a
+			display: inline-block
+			background: #BF0F50
+			border: 2px solid #fff  
+			text-transform: uppercase
+			text-decoration: none
+			color: #fff 
+			padding: 0 26px
+			height: 56px  
+			line-height: 56px  
+	.test__lite
+		+robl
+		font-weight: 100 
+	.test__list
+		list-style: none
+		li
+			margin-bottom: 24px 
+			padding-left: 51px 
+			position: relative
+			i
+				position: absolute
+				left: 0
+				top: 0  
+			a
+				color: #fff 
+	.icon1
+		+s(icon1)
+	.icon2
+		+s(icon2)
+	.icon3
+		+s(icon3)
+	.trust
+		position: absolute
+		right: 22px 
+		left: 22px 
+		height: 160px 
+		top: -80px
+		background: #434C4B 
+		text-align: center
+		.trust__text
+			font-size: 25px 
+			text-transform: uppercase
+			color: #FFFFFF
+			display: block 
+		.trust__numbers
+			text-align: center
+			display: block
+			padding-top: 25px 
+			font-size: 0
+			margin-bottom: 14px 
+		.number
+			font-size: 52px
+			color: #fff
+			border: 2px solid #478B88
+			border-radius: 10px
+			margin-right: 13px   
+			display: inline-block
+			padding: 3px 3px 
+			&.number__space
+				margin-right: 31px 
+		 
+.article
+	margin-bottom: 50px 
+	h3
+		font-size: 30px 
+		color: #363636 
+		margin-bottom: 20px 
+		line-height: 1.1 
+		a
+			color: #363636 
+			text-decoration: none
+	p
+		font-size: 25px 
+		line-height: 1.2 
+		color: #363636 
+.where
+	background: #ACDBD8
+	margin-bottom: 80px  
+	padding: 45px 37px 27px 37px
+	text-align: center
+	+robl
+	h3
+		font-size: 40px 
+		color: #2E2E2E
+		+robl
+		margin-bottom: 40px  
+		font-weight: 100
+		text-transform: uppercase
+	p
+		font-size: 25px 
+		line-height: 1.2
+		margin-bottom: 1em  
+		color: #191919 
+	.where__note
+		color: #606060 
+.footer
+	margin: 0 27px 
+	.footer__adres
+		padding: 0 22px 17px 22px
+		+robl
+		color: #272727
+		font-size: 22px
+		border-bottom: 1px solid #fff
+	.footer__copy
+		padding: 17px 22px 
+		color: #606060
+		font-size: 16px  
