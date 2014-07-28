@@ -59,10 +59,11 @@ body { background: #f2f1f0; }
 .promo .promo__how { list-style: none; }
 .promo .promo__how li { margin-bottom: 8px; white-space: nowrap; }
 .promo .promo__how a { color: #0f7872; font-size: 22px; }
-.promo.promo_small { font-size: 0; padding-bottom: 30px; margin-bottom: 20px; border-bottom: 2px solid #0f7973; }
+.promo.promo_small { font-size: 0; padding-bottom: 30px; margin-bottom: 20px; border-bottom: 2px solid #0f7973; font-family: "Roboto", sans-serif; font-weight: 900; }
 .promo.promo_small .promo__how { display: inline-block; width: 50%; text-align: left; vertical-align: bottom; }
 .promo.promo_small .promo__how li { margin-bottom: 0; margin-top: 0px; }
 .promo.promo_small .promo__text { text-align: right; display: inline-block; width: 50%; vertical-align: bottom; }
+.promo.promo_small .promo__text h3 { font-family: "Roboto", sans-serif; font-weight: 900; }
 .promo.promo_small .promo__phones { margin-bottom: 0; line-height: 1.2; }
 
 .subpromo h2 { font-size: 38px; color: black; font-family: "Roboto", sans-serif; font-weight: 300; font-weight: 100; text-transform: uppercase; margin-bottom: 20px; }
@@ -80,24 +81,24 @@ body { background: #f2f1f0; }
 .cure ul li { margin-bottom: 50px; }
 .cure ul li i { display: block; background: url('../img/icons-s64daa37a32.png') 0 -52px no-repeat; width: 75px; height: 72px; margin: 0 auto 20px auto; }
 
-.test { background: #49b6af url(../img/bg.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; padding: 103px 86px 50px 86px; color: white; font-size: 25px; line-height: 1.3; position: relative; }
-.test h3 { font-size: 40px; color: white; font-weight: normal; line-height: 1; margin-bottom: 15px; }
-.test p { margin-bottom: 23px; }
-.test .test__go { margin-bottom: 23px; }
-.test .test__go a { display: inline-block; background: #bf0f50; border: 2px solid white; text-transform: uppercase; text-decoration: none; color: white; padding: 0 26px; height: 56px; line-height: 56px; }
-.test .test__lite { font-family: "Roboto", sans-serif; font-weight: 300; font-weight: 100; }
-.test .test__list { list-style: none; }
-.test .test__list li { margin-bottom: 24px; padding-left: 51px; position: relative; }
-.test .test__list li i { position: absolute; left: 0; top: 0; }
-.test .test__list li a { color: white; }
-.test .icon1 { background: url('../img/icons-s64daa37a32.png') 0 -397px no-repeat; width: 34px; height: 33px; }
-.test .icon2 { background: url('../img/icons-s64daa37a32.png') 0 -301px no-repeat; width: 34px; height: 33px; }
-.test .icon3 { background: url('../img/icons-s64daa37a32.png') 0 -440px no-repeat; width: 34px; height: 34px; }
-.test .trust { position: absolute; right: 22px; left: 22px; height: 160px; top: -80px; background: #434c4b; text-align: center; }
-.test .trust .trust__text { font-size: 25px; text-transform: uppercase; color: white; display: block; }
-.test .trust .trust__numbers { text-align: center; display: block; padding-top: 25px; font-size: 0; margin-bottom: 14px; }
-.test .trust .number { font-size: 52px; color: white; border: 2px solid #478b88; border-radius: 10px; margin-right: 13px; display: inline-block; padding: 3px 3px; }
-.test .trust .number.number__space { margin-right: 31px; }
+.test1 { background: #49b6af url(../img/bg.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; padding: 103px 86px 50px 86px; color: white; font-size: 25px; line-height: 1.3; position: relative; }
+.test1 h3 { font-size: 40px; color: white; font-weight: normal; line-height: 1; margin-bottom: 15px; }
+.test1 p { margin-bottom: 23px; }
+.test1 .test__go { margin-bottom: 23px; }
+.test1 .test__go a { display: inline-block; background: #bf0f50; border: 2px solid white; text-transform: uppercase; text-decoration: none; color: white; padding: 0 26px; height: 56px; line-height: 56px; }
+.test1 .test__lite { font-family: "Roboto", sans-serif; font-weight: 300; font-weight: 100; }
+.test1 .test__list { list-style: none; }
+.test1 .test__list li { margin-bottom: 24px; padding-left: 51px; position: relative; }
+.test1 .test__list li i { position: absolute; left: 0; top: 0; }
+.test1 .test__list li a { color: white; }
+.test1 .icon1 { background: url('../img/icons-s64daa37a32.png') 0 -397px no-repeat; width: 34px; height: 33px; }
+.test1 .icon2 { background: url('../img/icons-s64daa37a32.png') 0 -301px no-repeat; width: 34px; height: 33px; }
+.test1 .icon3 { background: url('../img/icons-s64daa37a32.png') 0 -440px no-repeat; width: 34px; height: 34px; }
+.test1 .trust { position: absolute; right: 22px; left: 22px; height: 160px; top: -80px; background: #434c4b; text-align: center; }
+.test1 .trust .trust__text { font-size: 25px; text-transform: uppercase; color: white; display: block; }
+.test1 .trust .trust__numbers { text-align: center; display: block; padding-top: 25px; font-size: 0; margin-bottom: 14px; }
+.test1 .trust .number { font-size: 52px; color: white; border: 2px solid #478b88; border-radius: 10px; margin-right: 13px; display: inline-block; padding: 3px 3px; }
+.test1 .trust .number.number__space { margin-right: 31px; }
 
 .article { margin-bottom: 50px; }
 .article h3 { font-size: 30px; color: #363636; margin-bottom: 20px; line-height: 1.1; }
@@ -123,7 +124,7 @@ body { background: #f2f1f0; }
 .about .download { display: block; text-decoration: none; padding-left: 80px; position: relative; font-size: 22px; font-family: "Roboto", sans-serif; font-weight: 300; color: #767676; margin-bottom: 40px; }
 .about .download span { font-size: 25px; color: #169893; text-decoration: underline; text-transform: uppercase; }
 .about .download i { background: url('../img/icons-s64daa37a32.png') 0 -344px no-repeat; width: 43px; height: 43px; position: absolute; left: 11px; top: 6px; }
-.about .about__pic { text-align: center; margin-bottom: -54px; }
+.about .about__pic { text-align: center; margin-bottom: -27px; }
 .about .hr { margin: 40px 0 30px; border-top: 1px solid #d0d0d0; }
 .about .priem { margin-bottom: 20px; font-size: 25px; color: #454e4a; }
 .about .priem strong { font-weight: normal; color: #148e97; }
