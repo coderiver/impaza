@@ -19,17 +19,7 @@ ul, ol { list-style-type: none; }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) { * { -webkit-text-size-adjust: none; } }
 table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 
-@font-face { font-family: pb; src: url("fonts/proximanova-bold-webfont.eot"); src: url("fonts/proximanova-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/proximanova-bold-webfont.woff") format("woff"), url("fonts/proximanova-bold-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
-
-@font-face { font-family: p; src: url("fonts/proximanova-regular-webfont.eot"); src: url("fonts/proximanova-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/proximanova-regular-webfont.woff") format("woff"), url("fonts/proximanova-regular-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
-
-@font-face { font-family: psb; src: url("fonts/proximanova-semibold-webfont.eot"); src: url("fonts/proximanova-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/proximanova-semibold-webfont.woff") format("woff"), url("fonts/proximanova-semibold-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
-
-@font-face { font-family: robl; src: url("fonts/roboto-light-webfont.eot"); src: url("fonts/roboto-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/roboto-light-webfont.woff") format("woff"), url("fonts/roboto-light-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
-
-@font-face { font-family: rob; src: url("fonts/roboto-regular-webfont.eot"); src: url("fonts/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/roboto-regular-webfont.woff") format("woff"), url("fonts/roboto-regular-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
-
-body { font-family: "rob", sans-serif; font-size: 12px; line-height: 1.4; }
+body { font-family: "Roboto", sans-serif; font-weight: 400; font-size: 12px; line-height: 1.4; }
 
 .l { *zoom: 1; }
 .l:after { content: " "; display: table; clear: both; }
@@ -75,8 +65,8 @@ body { background: #f2f1f0; }
 .promo.promo_small .promo__text { text-align: right; display: inline-block; width: 50%; vertical-align: bottom; }
 .promo.promo_small .promo__phones { margin-bottom: 0; line-height: 1.2; }
 
-.subpromo h2 { font-size: 38px; color: black; font-family: "robl", sans-serif; font-weight: 100; text-transform: uppercase; margin-bottom: 20px; }
-.subpromo p { font-size: 25px; text-transform: uppercase; font-family: "robl", sans-serif; margin-bottom: 30px; }
+.subpromo h2 { font-size: 38px; color: black; font-family: "Roboto", sans-serif; font-weight: 300; font-weight: 100; text-transform: uppercase; margin-bottom: 20px; }
+.subpromo p { font-size: 25px; text-transform: uppercase; font-family: "Roboto", sans-serif; font-weight: 300; margin-bottom: 30px; }
 .subpromo img { display: block; }
 
 .kurs { background: url(../img/wave.png) repeat 50% 50%; padding-top: 46px; margin-bottom: 8px; padding-bottom: 32px; }
@@ -95,7 +85,7 @@ body { background: #f2f1f0; }
 .test p { margin-bottom: 23px; }
 .test .test__go { margin-bottom: 23px; }
 .test .test__go a { display: inline-block; background: #bf0f50; border: 2px solid white; text-transform: uppercase; text-decoration: none; color: white; padding: 0 26px; height: 56px; line-height: 56px; }
-.test .test__lite { font-family: "robl", sans-serif; font-weight: 100; }
+.test .test__lite { font-family: "Roboto", sans-serif; font-weight: 300; font-weight: 100; }
 .test .test__list { list-style: none; }
 .test .test__list li { margin-bottom: 24px; padding-left: 51px; position: relative; }
 .test .test__list li i { position: absolute; left: 0; top: 0; }
@@ -114,23 +104,23 @@ body { background: #f2f1f0; }
 .article h3 a { color: #363636; text-decoration: none; }
 .article p { font-size: 25px; line-height: 1.2; color: #363636; }
 
-.where { background: #acdbd8; margin-bottom: 80px; padding: 45px 37px 27px 37px; text-align: center; font-family: "robl", sans-serif; }
-.where h3 { font-size: 40px; color: #2e2e2e; font-family: "robl", sans-serif; margin-bottom: 40px; font-weight: 100; text-transform: uppercase; }
+.where { background: #acdbd8; margin-bottom: 80px; padding: 45px 37px 27px 37px; text-align: center; font-family: "Roboto", sans-serif; font-weight: 300; }
+.where h3 { font-size: 40px; color: #2e2e2e; font-family: "Roboto", sans-serif; font-weight: 300; margin-bottom: 40px; font-weight: 100; text-transform: uppercase; }
 .where p { font-size: 25px; line-height: 1.2; margin-bottom: 1em; color: #191919; }
 .where .where__note { color: #606060; }
 
 .footer { margin: 30px 27px 0 27px; }
-.footer .footer__adres { padding: 0 22px 17px 22px; font-family: "robl", sans-serif; color: #272727; font-size: 22px; border-bottom: 1px solid white; }
-.footer .footer__copy { padding: 17px 22px; color: #606060; font-size: 16px; }
+.footer .footer__adres { padding: 0 22px 17px 22px; font-family: "Roboto", sans-serif; font-weight: 300; color: #272727; font-size: 22px; border-bottom: 1px solid white; }
+.footer .footer__copy { padding: 17px 22px; color: #606060; font-size: 16px; font-family: "Roboto", sans-serif; font-weight: 300; }
 
-.h2 { font-size: 38px; font-weight: normal; font-family: "robl", sans-serif; text-transform: uppercase; text-align: center; margin-bottom: 41px; }
+.h2 { font-size: 38px; font-weight: normal; font-family: "Roboto", sans-serif; font-weight: 300; text-transform: uppercase; text-align: center; margin-bottom: 41px; }
 
 .about { margin-bottom: 22px; }
-.about .about__content { background: url(../img/wave.png) repeat 50% 50%; font-size: 25px; color: #767676; font-family: "robl", sans-serif; line-height: 30px; padding: 25px 22px 30px 22px; }
+.about .about__content { background: url(../img/wave.png) repeat 50% 50%; font-size: 25px; color: #767676; font-family: "Roboto", sans-serif; font-weight: 300; line-height: 30px; padding: 25px 22px 30px 22px; }
 .about .about__content ul { list-style: none; margin-left: 16px; font-size: 22px; color: #363636; margin-bottom: 29px; }
 .about .about__content ul li { padding-left: 40px; position: relative; text-transform: uppercase; white-space: nowrap; margin-bottom: 17px; line-height: 1; }
 .about .about__content ul li:before { position: absolute; content: " "; background: url('../img/icons-s64daa37a32.png') 0 -227px no-repeat; width: 27px; height: 21px; left: 0; top: 0px; }
-.about .download { display: block; text-decoration: none; padding-left: 80px; position: relative; font-size: 22px; font-family: "robl", sans-serif; color: #767676; margin-bottom: 40px; }
+.about .download { display: block; text-decoration: none; padding-left: 80px; position: relative; font-size: 22px; font-family: "Roboto", sans-serif; font-weight: 300; color: #767676; margin-bottom: 40px; }
 .about .download span { font-size: 25px; color: #169893; text-decoration: underline; text-transform: uppercase; }
 .about .download i { background: url('../img/icons-s64daa37a32.png') 0 -344px no-repeat; width: 43px; height: 43px; position: absolute; left: 11px; top: 6px; }
 .about .about__pic { text-align: center; margin-bottom: -54px; }
@@ -153,26 +143,47 @@ body { background: #f2f1f0; }
 
 .articlecontent { background: white; padding: 52px 22px 22px 22px; margin-bottom: 23px; }
 .articlecontent .alist { list-style: none; }
-.articlecontent .alist a { display: block; font-size: 25px; color: white; text-transform: uppercase; font-family: "robl", sans-serif; background: #0f7c76; margin-bottom: 13px; height: 55px; line-height: 55px; text-align: center; text-decoration: none; }
+.articlecontent .alist a { display: block; font-size: 25px; color: white; text-transform: uppercase; font-family: "Roboto", sans-serif; font-weight: 300; background: #0f7c76; margin-bottom: 13px; height: 55px; line-height: 55px; text-align: center; text-decoration: none; }
 .articlecontent .articlecontent__more { text-align: center; margin-bottom: 60px; }
-.articlecontent .articlecontent__more a { display: inline-block; background: #bf1050; font-family: "robl", sans-serif; text-decoration: none; padding: 0 33px; height: 55px; line-height: 55px; color: white; text-transform: uppercase; font-size: 25px; }
+.articlecontent .articlecontent__more a { display: inline-block; background: #bf1050; font-family: "Roboto", sans-serif; font-weight: 300; text-decoration: none; padding: 0 33px; height: 55px; line-height: 55px; color: white; text-transform: uppercase; font-size: 25px; }
 .articlecontent .articlecontent__more.articlecontent__more_wide { margin-bottom: 10px; }
 .articlecontent .articlecontent__more.articlecontent__more_wide a { display: block; }
 .articlecontent.articlecontent_rub { padding-top: 10px; }
+.articlecontent.articlecontent_transparent { padding-top: 0; background: transparent; }
+.articlecontent.articlecontent_transparent .h3 span { background: #f2f1f0; }
 
-.h3 { border-top: 3px solid #20c6c1; text-align: center; font-weight: normal; font-size: 25px; font-family: "robb", sans-serif; line-height: 1; margin: 38px -22px 20px -22px; }
+.h3 { border-top: 3px solid #20c6c1; text-align: center; font-weight: normal; font-size: 25px; font-family: "Roboto", sans-serif; font-weight: 900; line-height: 1; margin: 38px -22px 20px -22px; }
 .h3 span { display: inline-block; padding: 0 30px; background: white; position: relative; top: -0.6em; }
 
 .aitem { margin-bottom: 53px; }
 .aitem .aitem__pic { border: 6px solid #20c6c1; margin-bottom: 28px; }
 .aitem .aitem__pic img { display: block; }
-.aitem .aitem__title { margin-bottom: 15px; font-weight: normal; font-size: 25px; font-family: "robb", sans-serif; }
+.aitem .aitem__title { margin-bottom: 15px; font-weight: normal; font-size: 25px; font-family: "Roboto", sans-serif; font-weight: 900; }
 .aitem .aitem__title a { text-decoration: underline; color: #169995; }
-.aitem p { font-family: "robl", sans-serif; font-size: 25px; color: #393939; width: 100%; }
+.aitem p { font-family: "Roboto", sans-serif; font-weight: 300; font-size: 25px; color: #393939; width: 100%; }
 
-.test { background: white; padding: 22px 22px 0 22px; font-family: "robl", sans-serif; font-size: 25px; color: #3c3c3c; line-height: 1.3; margin-bottom: 30px; }
+.asingle { background: white; padding: 22px 22px 0 22px; margin-bottom: 50px; }
+.asingle .asingle__pic { border: 4px solid #20c6c1; margin: 36px 0 45px 0; }
+.asingle .asingle__pic img { display: block; width: 100%; }
+.asingle p { font-size: 25px; color: #3c3c3c; font-family: "Roboto", sans-serif; font-weight: 300; margin-bottom: 1em; }
+.asingle p strong { font-weight: normal; font-family: "Roboto", sans-serif; font-weight: 500; }
+.asingle h3 { font-weight: normal; font-family: "Roboto", sans-serif; font-weight: 500; font-size: 25px; margin-bottom: 30px; color: #169893; }
+.asingle h3 strong { font-family: "Roboto", sans-serif; font-weight: 900; }
+
+.salvation { margin: 30px -22px 0 -22px; *zoom: 1; padding: 18px; border: 4px solid #169893; }
+.salvation:after { content: " "; display: table; clear: both; }
+.salvation h3 { font-size: 30px; font-weight: normal; font-family: "Roboto", sans-serif; font-weight: 900; margin-bottom: 34px; color: #169893; }
+.salvation p { font-size: 25px; line-height: 1.3; color: black; margin-bottom: 15px; font-family: "Roboto", sans-serif; font-weight: 300; }
+.salvation .salvation__pic { float: left; margin-right: 10px; width: 40%; margin-left: -7px; }
+.salvation .salvation__pic img { width: 100%; }
+.salvation ul { list-style: none; padding-top: 40px; overflow: hidden; font-size: 25px; float: left; width: 57%; white-space: nowrap; line-height: 1.05; }
+.salvation ul li { padding-left: 23px; position: relative; }
+.salvation ul li:before { position: absolute; left: 0; top: 50%; margin-top: -6px; width: 12px; height: 12px; border-radius: 12px; background: #bf1050; content: " "; }
+.salvation ul a { color: #0f7872; font-family: "Roboto", sans-serif; font-weight: 300; }
+
+.test { background: white; padding: 22px 22px 0 22px; font-family: "Roboto", sans-serif; font-weight: 300; font-size: 25px; color: #3c3c3c; line-height: 1.3; margin-bottom: 30px; }
 .test .test__q { border-top: 1px solid #d5d5d5; padding: 22px; margin: 0 -22px; }
-.test .test__q dt { font-family: "robm", sans-serif; font-size: 25px; color: #363636; margin-bottom: 17px; }
+.test .test__q dt { font-family: "Roboto", sans-serif; font-weight: 500; font-size: 25px; color: #363636; margin-bottom: 17px; }
 .test .test__q ul { list-style: none; font-size: 25px; color: #363636; }
 .test .test__q li { padding-left: 63px; position: relative; margin-bottom: 33px; line-height: 1.1; }
 .test .test__q li:last-child { margin-bottom: 20px; }
@@ -180,12 +191,12 @@ body { background: #f2f1f0; }
 .test .test__q li input { display: none; }
 .test .test__q li input:checked + i { background: #429993; }
 .test .test__submit { text-align: center; margin-bottom: 60px; }
-.test .test__submit a { display: inline-block; height: 55px; line-height: 55px; text-transform: uppercase; color: white; font-size: 25px; text-decoration: none; font-family: "robl", sans-serif; background: #bf1050; padding: 0 50px; }
+.test .test__submit a { display: inline-block; height: 55px; line-height: 55px; text-transform: uppercase; color: white; font-size: 25px; text-decoration: none; font-family: "Roboto", sans-serif; font-weight: 300; background: #bf1050; padding: 0 50px; }
 .test .test__result { border: 4px solid #169893; margin: 0 -22px; }
-.test .test__resultheader { background: #169893; padding: 30px 20px 50px 20px; font-family: "robl", sans-serif; font-size: 25px; text-transform: uppercase; color: white; text-align: center; }
+.test .test__resultheader { background: #169893; padding: 30px 20px 50px 20px; font-family: "Roboto", sans-serif; font-weight: 300; font-size: 25px; text-transform: uppercase; color: white; text-align: center; }
 .test .test__text { padding: 30px 20px 60px 20px; text-align: center; background: #ededed url(../img/wave1.png) repeat 50% 50%; }
-.test .test__text p { font-family: "robb", sans-serif; font-size: 25px; color: #363636; }
-.test .test__text .note { font-weight: normal; font-family: "robl", sans-serif; font-size: 20px; color: #169a90; line-height: 1.1; }
+.test .test__text p { font-family: "Roboto", sans-serif; font-weight: 900; font-size: 25px; color: #363636; }
+.test .test__text .note { font-weight: normal; font-family: "Roboto", sans-serif; font-weight: 300; font-size: 20px; color: #169a90; line-height: 1.1; }
 .test .test__text .note strong { font-weight: normal; }
 
 .alert { margin-top: 30px; margin-bottom: 21px; }
