@@ -1,0 +1,217 @@
+.faq
+	background: #4FC6C0 url(../img/bg2.jpg) no-repeat 50% 50%
+	-webkit-background-size: cover 
+	-o-background-size: cover 
+	background-size: cover 
+	padding: 22px 
+	color: #fff 
+	padding-bottom: 55px 
+	margin-bottom: 28px 
+	.faq__title
+		+robm
+		font-size: 40px 
+		margin-bottom: 14px 
+	dl
+		margin-left: 30px 
+		font-size: 25px 
+		dt
+			+robl
+			margin-bottom: 7px 
+			position: relative
+			&:before
+				height: 2px 
+				width: 21px 
+				background: #fff
+				content: ' ' 
+				position: absolute
+				left: -30px
+				top: 50%
+				
+		dd
+			font-weight: 400 
+			margin-bottom: 40px 
+
+
+	.faq__all
+		display: inline-block
+		background: #BF1050
+		border: 2px solid #fff
+		text-transform: uppercase
+		+robl
+		height: 55px
+		line-height: 55px
+		padding: 0 22px    
+		margin-left: 30px 
+		font-size: 25px 
+		text-decoration: none
+		color: #fff 
+.qq
+	margin-bottom: 60px 
+	.qq__title
+		margin-bottom: 14px 
+		font-size: 25px 
+		+robl
+		text-transform: uppercase
+		color: #169893
+		text-align: center
+	.qq__content
+		border: 4px solid #169893 
+		background: url(../img/wave1.png) repeat 0 0 
+	.qq__tab
+		padding: 22px 18px
+		text-align: center
+		font-size: 25px  
+		+robl
+		color: #3C3C3C
+	p
+		margin-bottom: 33px 
+	.qq__sw
+		border-top: 4px solid #169893 
+		border-bottom: 6px solid #169893 
+		font-size: 25px 
+		+clr
+		a
+			float: left
+			width: 50%
+			text-align: center
+			background: #fff  
+			color: #169893
+			text-transform: uppercase
+			+robl
+			text-decoration: none 
+			height: 42px 
+			line-height: 42px 
+			&.is-active
+				background: #169893
+				color: #fff 
+	&.qq_alt
+		border-color: #BE104F
+		background: #fff 
+		.qq__title
+			color: #BE104F 
+		.qq__content
+			border-color: #BE104F 
+		.qq__sw
+			border-color: #BE104F 
+			a
+				color: #BE104F
+				background: #fff 
+				&.is-active
+					background: #BE104F 
+					color: #fff 
+		.experts .expert
+			.expert__link a
+				background: #BE104F
+		.form .form__submit
+			a
+				background: #BE104F 
+	.experts
+		text-align: center
+		margin-bottom: 37px 
+		+clr
+		.expert
+			float: left
+			width: 40%
+			padding: 0 5%  
+			.expert__pic
+				width: 150px 
+				height: 150px 
+				margin: 0 auto
+				border: 2px solid #CCC  
+				border-radius: 150px
+				margin-bottom: 20px 
+			.expert__name
+				font-size: 30px 
+				color: #3C3C3C
+				line-height: 1.1 
+				+robl
+				margin-bottom: 16px  
+			.expert__pos
+				font-size: 22px 
+				color: #3C3C3C
+				margin-bottom: 32px 
+				+robl 
+		.expert__link
+			a
+				display: inline-block
+				text-transform: uppercase
+				text-decoration: none
+				color: #fff
+				font-size: 25px  
+				padding: 0 28px
+				border: 2px solid #fff
+				height: 52px   
+				line-height: 52px 
+				background: #169893 
+	.form
+		.form__row
+			margin-bottom: 27px 
+			input,textarea
+				border: 1px solid #AAA 
+				padding: 10px 25px
+				width: 100%
+				+box
+				color: #363636
+				font-size: 25px  
+				+robl
+			textarea
+				height: 162px
+		.form__submit
+			text-align: center
+			a
+				display: inline-block
+				text-transform: uppercase
+				text-decoration: none
+				color: #fff
+				font-size: 25px  
+				padding: 0 33px
+				border: 2px solid #fff
+				height: 55px   
+				line-height: 55px 
+				background: #169893 
+.fb
+	margin-bottom: 13px 
+	border-top: 2px solid #4FC6C0
+	.fb__q
+		padding: 22px 
+		background: #FFFFFF
+		box-shadow: 0 10px 10px rgba(#000,.03) 
+		position: relative
+		font-size: 25px 
+		+robl
+		line-height: 1.3
+		.fb__meta
+			font-size: 22px 
+			color: #747474 
+			margin-bottom: 16px 
+		p
+			position: relative
+			z-index: 2 
+		h3
+			color: #000000
+			margin-bottom: 16px
+			font-size: 22px   
+			+robl
+		&:before
+			position: absolute
+			width: 60px 
+			height: 60px 
+			+transform(rotate(45deg))
+			background: #fff
+			position: absolute
+			content: ' '
+			bottom: -28px 
+			left: 50%
+			z-index: 1 
+			margin-left: -30px  
+	.fb__a
+		background: #EBE8E1 
+		padding: 25px 22px
+		font-size: 25px  
+		+robl
+		color: #3C3C3C
+		line-height: 1.3
+		.fb__meta
+			font-size: 22px 
+			color: #000 
+			margin-bottom: 16px 
