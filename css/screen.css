@@ -46,7 +46,7 @@ body { background: #f2f1f0; }
 .content { margin: 0 27px; }
 
 .articles { background: white; margin-bottom: 8px; padding: 24px 22px; }
-.articles h2 { font-size: 40px; color: #363636; font-weight: bold; margin-bottom: 30px; }
+.articles h2 { font-size: 40px; color: #363636; font-weight: bold; margin-bottom: 30px; font-family: "Roboto", sans-serif; font-weight: 500; }
 .articles .articles__more { text-align: right; font-size: 30px; margin-top: -20px; }
 .articles .articles__more a { color: #169893; }
 
@@ -101,9 +101,9 @@ body { background: #f2f1f0; }
 .test1 .trust .number.number__space { margin-right: 31px; }
 
 .article { margin-bottom: 50px; }
-.article h3 { font-size: 30px; color: #363636; margin-bottom: 20px; line-height: 1.1; }
+.article h3 { font-size: 30px; color: #363636; margin-bottom: 20px; line-height: 1.1; font-family: "Roboto", sans-serif; font-weight: 500; }
 .article h3 a { color: #363636; text-decoration: none; }
-.article p { font-size: 25px; line-height: 1.2; color: #363636; }
+.article p { font-size: 25px; line-height: 1.2; color: #363636; font-family: "Roboto", sans-serif; font-weight: 300; }
 
 .where { background: #acdbd8; margin-bottom: 80px; padding: 45px 37px 27px 37px; text-align: center; font-family: "Roboto", sans-serif; font-weight: 300; }
 .where h3 { font-size: 40px; color: #2e2e2e; font-family: "Roboto", sans-serif; font-weight: 300; margin-bottom: 40px; font-weight: 100; text-transform: uppercase; }
