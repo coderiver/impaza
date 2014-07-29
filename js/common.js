@@ -1,4 +1,8 @@
 head.ready(function() {
+	$('.faq__all').click(function(event) {
+		$('.toggleme').slideDown();
+		return false;
+	});
 	$(".alist a").click(function() {
 		getid = $(this).attr('href');
 

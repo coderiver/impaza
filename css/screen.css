@@ -153,16 +153,16 @@ body { background: #f2f1f0; }
 .articlecontent.articlecontent_transparent { padding-top: 0; background: transparent; }
 .articlecontent.articlecontent_transparent .h3 span { background: #f2f1f0; }
 
-.h3 { border-top: 3px solid #20c6c1; text-align: center; font-weight: normal; font-size: 25px; font-family: "Roboto", sans-serif; font-weight: 900; line-height: 1; margin: 38px -22px 20px -22px; }
-.h3 span { display: inline-block; padding: 0 30px; background: white; position: relative; top: -0.6em; }
+.h3 { border-top: 3px solid #20c6c1; text-align: center; font-weight: normal; font-size: 25px; font-family: "Roboto", sans-serif; font-weight: 500; line-height: 1; margin: 38px -22px 20px -22px; }
+.h3 span { display: inline-block; padding: 0 10px; background: white; position: relative; top: -0.6em; }
 .h3.h3_big { font-size: 76px; color: #2a2a2a; margin-top: 80px; margin-bottom: 0px; }
 .h3.h3_big span { font-family: "Roboto", sans-serif; font-weight: 300; text-transform: uppercase; }
 
 .aitem { margin-bottom: 53px; }
 .aitem .aitem__pic { border: 6px solid #20c6c1; margin-bottom: 28px; }
 .aitem .aitem__pic img { display: block; }
-.aitem .aitem__title { margin-bottom: 15px; font-weight: normal; font-size: 25px; font-family: "Roboto", sans-serif; font-weight: 900; }
-.aitem .aitem__title a { text-decoration: underline; color: #169995; }
+.aitem .aitem__title { margin-bottom: 15px; font-weight: normal; font-size: 25px; font-family: "Roboto", sans-serif; font-weight: 500; }
+.aitem .aitem__title a { text-decoration: underline; color: #20c6c1; }
 .aitem p { font-family: "Roboto", sans-serif; font-weight: 300; font-size: 25px; color: #393939; width: 100%; }
 
 .asingle { background: white; padding: 22px 22px 0 22px; margin-bottom: 50px; }
@@ -235,7 +235,9 @@ body { background: #f2f1f0; }
 .alert i { display: inline-block; vertical-align: middle; background: url('../img/icons-sac17926f3c.png') 0 -397px no-repeat; width: 34px; height: 33px; position: relative; margin-right: 6px; }
 .alert p { font-size: 25px; color: #f3a848; display: inline-block; vertical-align: middle; width: 480px; margin-bottom: 0; font-family: "Roboto", sans-serif; font-weight: 300; font-weight: 400; }
 
-.faq { background: #4fc6c0 url(../img/bg2.jpg) no-repeat 50% 50%; -webkit-background-size: cover; -o-background-size: cover; background-size: cover; padding: 22px; color: white; padding-bottom: 55px; margin-bottom: 28px; }
+.toggleme { display: none; }
+
+.faq { background: #4fc6c0 url(../img/bg2.jpg) no-repeat 50% 0; padding: 22px; color: white; padding-bottom: 55px; margin-bottom: 28px; }
 .faq .faq__title { font-family: "Roboto", sans-serif; font-weight: 500; font-size: 40px; margin-bottom: 14px; }
 .faq dl { margin-left: 30px; font-size: 25px; }
 .faq dl dt { font-family: "Roboto", sans-serif; font-weight: 300; margin-bottom: 7px; position: relative; }
