@@ -3,6 +3,14 @@ head.ready(function() {
 		$('.toggleme').slideDown();
 		return false;
 	});
+	$('.qq__sw a').click(function(event) {
+		if(!$(this).hasClass('is-active')){
+			$('.qq__sw a').removeClass('is-active');
+			$(this).addClass('is-active');
+			$('.qq__tab').toggle();
+		}
+		return false;
+	});
 	$(".alist a").click(function() {
 		getid = $(this).attr('href');
 

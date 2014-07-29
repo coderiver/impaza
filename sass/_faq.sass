@@ -65,8 +65,8 @@
 	p
 		margin-bottom: 33px 
 	.qq__sw
-		border-top: 4px solid #169893 
-		border-bottom: 6px solid #169893 
+		border-top: 1px solid #169893 
+		border-bottom: 5px solid #169893 
 		font-size: 25px 
 		+clr
 		a
@@ -214,3 +214,30 @@
 			font-size: 22px 
 			color: #000 
 			margin-bottom: 16px 
+
+.pagi
+	margin-top: 37px 
+	font-size: 30px 
+	+robm
+	font-size: 0
+	text-align: center 
+	margin-bottom: 36px 
+	a
+		display: inline-block
+		font-size: 30px 
+		text-decoration: none
+		width: 76px 
+		height: 76px 
+		text-align: center
+		line-height: 76px 
+		border-radius: 76px
+		vertical-align: middle
+		color: #000
+		&.is-active
+			background: #fff
+			color: #F1A64C 
+	.pagi__next
+		+s(next)
+		margin-left: 0 
+	.pagi__prev
+		+s(prev)
