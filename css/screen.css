@@ -124,7 +124,7 @@ body { background: #f2f1f0; }
 .about .download { display: block; text-decoration: none; padding-left: 80px; position: relative; font-size: 22px; font-family: "Roboto", sans-serif; font-weight: 300; color: #767676; margin-bottom: 40px; }
 .about .download span { font-size: 25px; color: #169893; text-decoration: underline; text-transform: uppercase; }
 .about .download i { background: url('../img/icons-sac17926f3c.png') 0 -344px no-repeat; width: 43px; height: 43px; position: absolute; left: 11px; top: 6px; }
-.about .about__pic { text-align: center; margin-bottom: -27px; }
+.about .about__pic { text-align: center; margin-bottom: -13px; }
 .about .hr { margin: 40px 0 30px; border-top: 1px solid #d0d0d0; }
 .about .priem { margin-bottom: 20px; font-size: 25px; color: #454e4a; }
 .about .priem strong { font-weight: normal; color: #148e97; }
