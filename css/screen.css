@@ -19,6 +19,8 @@ ul, ol { list-style-type: none; }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) { * { -webkit-text-size-adjust: none; } }
 table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 
+@font-face { font-family: beb; src: url("fonts/BebasNeue-webfont.eot"); src: url("fonts/BebasNeue-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/BebasNeue-webfont.woff") format("woff"), url("fonts/BebasNeue-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+
 body { font-family: "Roboto", sans-serif; font-weight: 400; font-size: 12px; line-height: 1.4; }
 
 .l { *zoom: 1; }
@@ -96,8 +98,10 @@ body { background: #f2f1f0; }
 .test1 .icon3 { background: url('../img/icons-s7aedf8b9d0.png') 0 -612px no-repeat; width: 34px; height: 34px; }
 .test1 .trust { position: absolute; right: 22px; left: 22px; height: 160px; top: -80px; background: #434c4b; text-align: center; }
 .test1 .trust .trust__text { font-size: 25px; text-transform: uppercase; color: white; display: block; }
-.test1 .trust .trust__numbers { text-align: center; display: block; padding-top: 25px; font-size: 0; margin-bottom: 14px; }
-.test1 .trust .number { font-size: 52px; color: white; border: 2px solid #478b88; border-radius: 10px; margin-right: 13px; display: inline-block; padding: 3px 3px; }
+.test1 .trust .trust__numbers { text-align: center; display: block; padding-top: 25px; font-size: 0; margin-bottom: 14px; font-family: beb, sans-serf; }
+.test1 .trust .number { font-size: 63px; color: white; border: 2px solid #478b88; border-radius: 10px; margin-right: 13px; display: inline-block; padding: 1px 3px; position: relative; line-height: 1; }
+.test1 .trust .number:before { position: absolute; top: 50%; left: 0; width: 100%; border-top: 1px solid #478b88; content: " "; z-index: 0; }
+.test1 .trust .number span { position: relative; z-index: 10; }
 .test1 .trust .number.number__space { margin-right: 31px; }
 
 .article { margin-bottom: 50px; }
