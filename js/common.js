@@ -1,5 +1,12 @@
 head.ready(function() {
+	$(".alist a").click(function() {
+		getid = $(this).attr('href');
 
+	    $('html, body').animate({
+	        scrollTop: $(getid+'').offset().top - 20
+	    }, 1000);
+	    return false;
+	});
 	// $(document).on("click", function(){
 	// 	$(".js-popup").hide();
 	// });
