@@ -55,7 +55,7 @@ body { background: #f2f1f0; }
 .promo .promo__pic { float: left; margin-left: -10px; }
 .promo .promo__text { text-align: right; overflow: hidden; }
 .promo .promo__text h3 { font-size: 22px; font-weight: normal; color: #0f7872; margin-bottom: 8px; }
-.promo .promo__text .promo__phones { color: black; font-size: 25px; line-height: 1; margin-bottom: 11px; }
+.promo .promo__text .promo__phones { color: black; font-size: 25px; line-height: 1.2; margin-bottom: 11px; }
 .promo .promo__how { list-style: none; }
 .promo .promo__how li { margin-bottom: 8px; white-space: nowrap; }
 .promo .promo__how a { color: #0f7872; font-size: 22px; }
