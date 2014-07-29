@@ -3,6 +3,12 @@ head.ready(function() {
 		$('.toggleme').slideDown();
 		return false;
 	});
+	$('.alla a').click(function(event) {
+		event.preventDefault();
+		$('.alla__toggle').slideToggle();
+		$('.alla').toggleClass('is-active');
+		return false;
+	});
 	$('.qq__sw a').click(function(event) {
 		if(!$(this).hasClass('is-active')){
 			$('.qq__sw a').removeClass('is-active');
