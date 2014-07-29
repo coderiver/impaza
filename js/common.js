@@ -25,7 +25,7 @@ head.ready(function() {
 	            $('.test :checked').each(function() {
 	                count += parseInt($(this).attr('value'));
 	            });
-	            $('.results-list > div').hide();
+	            $('.test__results > div').hide();
 	            if (count >= 0 && count <= 10) {
 	                $('.result-1').show();
 	            } else if (count >= 11 && count <= 15) {
