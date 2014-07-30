@@ -64,7 +64,7 @@ body { background: #f2f1f0; }
 .promo.promo_small { font-size: 0; padding-bottom: 30px; margin-bottom: 20px; border-bottom: 2px solid #0f7973; font-family: "Roboto", sans-serif; font-weight: 500; }
 .promo.promo_small .promo__how { display: inline-block; width: 50%; text-align: left; vertical-align: bottom; }
 .promo.promo_small .promo__how li { margin-bottom: 0; margin-top: 0px; }
-.promo.promo_small .promo__text { text-align: right; display: inline-block; width: 50%; vertical-align: bottom; }
+.promo.promo_small .promo__text { text-align: right; display: inline-block; width: 50%; vertical-align: bottom; font-weight: 400; }
 .promo.promo_small .promo__text h3 { font-family: "Roboto", sans-serif; font-weight: 500; }
 .promo.promo_small .promo__phones { margin-bottom: 0; line-height: 1.2; }
 

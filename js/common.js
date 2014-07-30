@@ -1,6 +1,7 @@
 head.ready(function() {
 	$('.faq__all').click(function(event) {
 		$('.toggleme').slideDown();
+		$('.faq__all').slideUp()
 		return false;
 	});
 	$('.alla a').click(function(event) {
