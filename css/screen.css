@@ -267,10 +267,10 @@ body { background: #f2f1f0; }
 
 .qq { margin-bottom: 60px; }
 .qq .qq__title { margin-bottom: 14px; font-size: 25px; font-family: "Roboto", sans-serif; font-weight: 300; text-transform: uppercase; color: #169893; text-align: center; }
-.qq .qq__content { border: 4px solid #169893; background: url(../img/wave1.png) repeat 0 0; }
+.qq .qq__content { border: 5px solid #169893; background: url(../img/wave1.png) repeat 0 0; }
 .qq .qq__tab { padding: 22px 18px; text-align: center; font-size: 25px; font-family: "Roboto", sans-serif; font-weight: 300; color: #3c3c3c; }
 .qq p { margin-bottom: 33px; }
-.qq .qq__sw { border-top: 1px solid #169893; border-bottom: 5px solid #169893; font-size: 25px; *zoom: 1; }
+.qq .qq__sw { border-top: 0px solid #169893; border-bottom: 5px solid #169893; font-size: 25px; *zoom: 1; }
 .qq .qq__sw:after { content: " "; display: table; clear: both; }
 .qq .qq__sw a { float: left; width: 50%; text-align: center; background: white; color: #169893; text-transform: uppercase; font-family: "Roboto", sans-serif; font-weight: 300; text-decoration: none; height: 42px; line-height: 42px; }
 .qq .qq__sw a.is-active { background: #169893; color: white; }
