@@ -4,6 +4,17 @@ head.ready(function() {
 		$('.faq__all').slideUp()
 		return false;
 	});
+	$('[data-show]').click(function(event) {
+		idd = $(this).data('show');
+		$('#'+idd).fadeIn();
+		return false;
+	});
+	$('.popup__close').click(function(event) {
+		$(this).parents('.overlay').fadeOut();
+	});
+	$('.button__yes').click(function(event) {
+		$('.overlay').fadeOut();
+	});
 	$('.alla a').click(function(event) {
 		event.preventDefault();
 		$('.alla__toggle').slideToggle();

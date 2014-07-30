@@ -73,13 +73,13 @@
 							<div class="expert__pic" style="background:url(img/e1.jpg)"></div>
 							<div class="expert__name">Панюкова Ирина</div>
 							<div class="expert__pos">Психолог, гештальт-консультант</div>
-							<div class="expert__link"><a href="#">Подробнее</a></div>
+							<div class="expert__link"><a href="#" data-show="popup1">Подробнее</a></div>
 						</div>
 						<div class="expert">
 							<div class="expert__pic" style="background:url(img/e2.jpg)"></div>
 							<div class="expert__name">Дмитрий Комаров</div>
 							<div class="expert__pos">Психолог, консультант</div>
-							<div class="expert__link"><a href="#">Подробнее</a></div>
+							<div class="expert__link"><a href="#" data-show="popup2">Подробнее</a></div>
 						</div>
 					</div>
 					<div class="form">
@@ -195,5 +195,33 @@
 <!-- END out-->
 
 <script src="js/lib/head.js" data-headjs-load="js/init.js"></script>
+<!-- begin overlay  -->
+<div class="overlay" id="popup1" hidden>
+	<div class="popup popup_alt">
+		<div class="popup__close"></div>
+		<div class="popup__content">
+			<div class="popup__pic" style="background:url(img/e1.jpg)"></div>
+			<div class="popup__name">Панюкова Ирина</div>
+			<div class="popup__text">
+				<p>Панюкова Ирина - врач-психотерапевт, кандидат медицинских наук, Член Профессиональной Психотерапевтической Лиги, специалист в области коррекции семейных взаимоотношений. Поможет преодолеть конфликтные ситуации и занять оптимистическую жизненную позицию, что непременно приведет к гармонизации личной жизни. Эффективно работает с проблемами межличностных отношений – конфликты и отсутствие взаимопонимания с супругом, неудовлетворенность семейной жизнью. Профессионально решает любые задачи «Амурологии», связанные с отношениями между мужчиной и женщиной. Поможет Вам справиться с тревожными состояниями и неврозами.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end overlay -->
+<!-- begin overlay  -->
+<div class="overlay" id="popup2" hidden>
+	<div class="popup popup_alt">
+		<div class="popup__close"></div>
+		<div class="popup__content">
+			<div class="popup__pic" style="background:url(img/e2.jpg)"></div>
+			<div class="popup__name">Дмитрий Комаров</div>
+			<div class="popup__text">
+				<p>Комаров Дмитрий – практикующий психолог, психотерапевт, Член Профессиональной Психотерапевтической Лиги, специалист в области когнитивно-поведенческой психотерапии. Поможет разобраться в способах установлении контактов с противоположным полом и дальнейшего общения, справиться с неуверенность в себе. Имеет большой опыт в устранении семейных проблем, основанных на разного типа зависимостях: игровой, алкогольной и т.д. Оказывает психологическую помощь в состояниях депрессии в результате перенесенных психологических травм, жестокого обращения или утраты. Успешно работает с освобождением от страхов, беспокойства и подавленности, возникающих по самым разным причинам.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end overlay -->
 </body>
 </html>
